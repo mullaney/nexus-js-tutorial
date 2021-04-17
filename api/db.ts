@@ -10,10 +10,5 @@ export interface Db {
 }
 
 export const db: Db = {
-  posts: [{
-    id: 1,
-    title: 'Nexus',
-    body: '...',
-    published: false
-  }]
+  posts: []
 }
